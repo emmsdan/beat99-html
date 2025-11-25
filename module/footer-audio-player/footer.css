@@ -1,8 +1,43 @@
 .footer-audio-player {
     display: flex;
     background-color: #2A2C34;
+    padding: 0 var(--padding-block);
+    height: 100%;
 }
 
-#button {
-    color: blue;
+.footer-audio-player__info {
+    width: 320px;
+    height: 100%;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    color: #E4E8EC;
+}
+.footer-audio-player__progress-actions {
+    flex: 1;
+    background-color: aquamarine;
+}
+.footer-audio-player__volumn-action {
+    max-width: 320px;
+}
+
+.footer-audio-player__info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.footer-audio-player__info_data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.13rem;
+}
+.footer-audio-player__info_data strong {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.footer-audio-player__info_data span {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #bbbec4;
 }
