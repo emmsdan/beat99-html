@@ -10,6 +10,11 @@ function updateSongInfo(){
     audioElement.src = currentSong.url
 }
 
+function playMusic(index){
+    currentIndex = index
+    updateSongInfo()
+}
+
 function playNextMusic(){
     // play next
     if(currentIndex < (songs.length - 1)){
