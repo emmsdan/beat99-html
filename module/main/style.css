@@ -1,0 +1,11 @@
+main,._main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+._main ._main-sidebar {
+    background-color: #1B2024;
+        width: 340px;
+  padding: var(--padding-vertical) var(--padding-block);
+  color: aliceblue;
+}

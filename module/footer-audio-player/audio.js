@@ -34,4 +34,4 @@ function getDuration(){
     audioTimerEnd.innerText = formatSeconds(audioElement.duration)
     audioTimerStart.innerText = formatSeconds(audioElement.currentTime)
 }
-    updateSongInfo()
+    // updateSongInfo()

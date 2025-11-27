@@ -2,7 +2,7 @@
   /* background-color: rgb(222, 231, 228); */
   height: 100%;
   width: 100%;
-  padding: 2rem 0;
+  padding: var(--padding-vertical) 0;
 }
 .sidebar_menu_item {
   color: #bbbec4;
